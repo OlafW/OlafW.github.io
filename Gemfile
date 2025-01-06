@@ -2,5 +2,5 @@
 
 source "https://rubygems.org"
 
-# gem "jekyll"
-gem "github-pages", "~> 232"
+gem "jekyll"
+# gem "github-pages", "~> 232"

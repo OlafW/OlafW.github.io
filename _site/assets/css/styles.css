@@ -4,43 +4,36 @@ html {
   font-weight: 300;
   font-style: normal;
   font-variation-settings: "wdth" 100;
-  font-size: 14.5px;
-}
+  font-size: 14.5px; }
 
 body {
   width: 80%;
-  margin: 2% auto;
-}
+  margin: 2% auto; }
 
 .masthead {
   margin: 2% 0%;
   display: flex;
   flex-direction: row;
   align-items: baseline;
-  justify-content: space-between;
-}
+  justify-content: space-between; }
 
 .title {
   font-size: 1.8em;
-  font-weight: 500;
-}
+  font-weight: 500; }
 
 .topnav a {
   font-size: 1.4em;
-  margin-left: 10px;
-}
+  margin-left: 10px; }
 
 .works {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(min(50%, max(250px, 25%)), 1fr));
   row-gap: 2%;
-  column-gap: 5%;
-}
+  column-gap: 5%; }
 
 .work_thumb {
   max-width: 100%;
-  object-fit: cover;
-}
+  object-fit: cover; }
 
 .work_thumb_title {
   font-size: 1.2em;
@@ -48,68 +41,55 @@ body {
   width: fit-content;
   padding-top: 0px;
   margin-top: 0px;
-  margin-bottom: 0px;
-}
+  margin-bottom: 0px; }
 
 ul {
-  list-style-type: "-    ";
-}
+  list-style-type: "-    "; }
 
 a {
   color: black;
   text-decoration: none;
-  width: fit-content;
-}
+  width: fit-content; }
 
 .topnav.selected,
 a:hover:not(.works a),
 a:hover .work_thumb_title {
   color: white;
-  background-color: rgb(50, 50, 50);
-}
+  background-color: #323232; }
 
 .visible_link {
   color: black;
-  text-decoration: underline;
-}
+  text-decoration: underline; }
 
 .project_content {
   width: max(350px, 60%);
-  margin: 0% auto;
-}
+  margin: 0% auto; }
 
 .project_title {
   font-size: 1.5em;
   font-weight: 300;
   opacity: 0.5;
-  margin-bottom: 0px;
-}
+  margin-bottom: 0px; }
 
 .project_description {
   font-size: 1em;
   margin-top: 0px;
   margin-bottom: 20px;
-  font-style: italic;
-}
+  font-style: italic; }
 
 .project_text {
   text-align: justify;
-  text-wrap: pretty;
-}
+  text-wrap: pretty; }
 
 .project_img {
   max-width: 100%;
   height: auto;
   display: block;
   margin: 5% auto;
-  object-fit: cover;
-}
+  object-fit: cover; }
 
 .project_video {
   width: 100%;
-  aspect-ratio: 16/9;
+  aspect-ratio: 16 / 9;
   border: none;
-  margin-top: 10px;
-}
-
-/*# sourceMappingURL=styles.css.map */
+  margin-top: 10px; }
