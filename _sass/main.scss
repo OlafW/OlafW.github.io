@@ -1,0 +1,82 @@
+html {
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300; // 100-900
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  font-size: 14.5px;
+}
+
+body {
+  width: 80%;
+  margin: 2% auto;
+}
+
+.masthead {
+  margin: 2% 0%;
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-between;
+  // border: solid black;
+}
+
+.title {
+  font-size: 1.8em;
+  font-weight: 500;
+  // border: solid black;
+}
+
+.topnav a {
+  // border: solid black;
+  font-size: 1.4em;
+  margin-left: 10px;
+}
+
+// Grid: https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Grids
+.works {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(min(50%, max(250px, 25%)), 1fr)
+  );
+  row-gap: 2%;
+  column-gap: 5%;
+  // border: solid black;
+}
+
+.work_thumb {
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.work_thumb_title {
+  font-size: 1.2em;
+  font-weight: 100;
+  width: fit-content;
+  padding-top: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+ul {
+  list-style-type: "-    ";
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  width: fit-content;
+}
+
+.topnav.selected,
+a:hover:not(.works a),
+a:hover .work_thumb_title {
+  color: white;
+  background-color: rgb(50, 50, 50);
+}
+
+.visible_link {
+  color: black;
+  text-decoration: underline;
+}

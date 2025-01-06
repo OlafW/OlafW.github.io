@@ -1,0 +1,26 @@
+- name: Piece of Code
+  link: works/pieceofcode.html
+  thumb: assets/images/pieceofcode/pieceofcode_thumb.jpg
+
+- name: Graduation Project
+  link: works/graduation_project.html
+  thumb: assets/images/graduation_project/graduation_project_thumb.jpg
+
+- name: Alternate Microphones
+  link: works/alt_microphones.html
+  thumb: assets/images/alt_microphones/alt_microphones_thumb.jpg
+
+- name: Studio Edwin van der Heide
+  link: works/studio_evdh.html
+  thumb: assets/images/studio_evdh/Schwingungen - Schwebungen_thumb.jpg
+
+- name: Solastalgia
+  link: works/solastalgia.html
+  thumb: assets/images/solastalgia/solastalgia_thumb.jpg
+
+- name: Tussenwater
+  link: works/tussenwater.html
+  thumb: assets/images/tussenwater/tussenwater_thumb.jpg
+# - name: Rif
+#   link: /works/rif.html
+#   thumb: assets/images/rif/rif_thumb.jpg

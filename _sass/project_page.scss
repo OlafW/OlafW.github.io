@@ -1,0 +1,38 @@
+.project_content {
+  width: max(350px, 60%);
+  margin: 0% auto;
+}
+
+.project_title {
+  font-size: 1.5em;
+  font-weight: 300;
+  opacity: 0.5;
+  margin-bottom: 0px;
+}
+
+.project_description {
+  font-size: 1em;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  font-style: italic;
+}
+
+.project_text {
+  text-align: justify;
+  text-wrap: pretty;
+}
+
+.project_img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 5% auto;
+  object-fit: cover;
+}
+
+.project_video {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border: none;
+  margin-top: 10px;
+}
