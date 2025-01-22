@@ -10,13 +10,19 @@ html {
 body {
   width: 80%;
   margin: 2% auto;
+  // border: solid black;
+}
+
+canvas {
+  display: block;
+  // border: solid black;
 }
 
 .masthead {
   margin: 2% 0%;
   display: flex;
   flex-direction: row;
-  align-items: baseline;
+  align-items: center;
   justify-content: space-between;
   // border: solid black;
 }
@@ -27,31 +33,40 @@ body {
   // border: solid black;
 }
 
+.topnav {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 10px;
+  // border: solid black;
+}
+
 .topnav a {
   // border: solid black;
   font-size: 1.4em;
-  margin-left: 10px;
+  align-self: left;
 }
 
 // Grid: https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Grids
-.works {
+.projects_container {
   display: grid;
   grid-template-columns: repeat(
     auto-fit,
-    minmax(min(50%, max(250px, 25%)), 1fr)
+    minmax(min(40%, max(250px, 25%)), 1fr)
   );
   row-gap: 2%;
   column-gap: 5%;
   // border: solid black;
 }
 
-.work_thumb {
+.project_thumb {
   max-width: 100%;
   object-fit: cover;
 }
 
-.work_thumb_title {
-  font-size: 1.2em;
+.project_thumb_title {
+  font-size: 1.1em;
   font-weight: 100;
   width: fit-content;
   padding-top: 0px;
@@ -70,8 +85,8 @@ a {
 }
 
 .topnav.selected,
-a:hover:not(.works a),
-a:hover .work_thumb_title {
+a:hover:not(.projects_container a),
+a:hover .project_thumb_title {
   color: white;
   background-color: rgb(50, 50, 50);
 }
@@ -79,4 +94,9 @@ a:hover .work_thumb_title {
 .visible_link {
   color: black;
   text-decoration: underline;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: rgb(50, 50, 50) !important;
 }

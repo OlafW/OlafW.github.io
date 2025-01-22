@@ -1,6 +1,14 @@
 ---
 layout: default
-title: Home
+title: Projects
+permalink: /
 ---
 
-<!-- <h2>{{ page.title}}</h2> -->
+<nav class="projects_container">
+  {% for item in site.data.projects %}
+  <a href="{{ item.link }}">
+    <img class="project_thumb" src="{{ item.thumb }}" />
+    <p class="project_thumb_title">{{ item.name }}</p>
+  </a>
+  {% endfor %}
+</nav>

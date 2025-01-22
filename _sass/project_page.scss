@@ -1,5 +1,5 @@
 .project_content {
-  width: max(350px, 60%);
+  width: max(300px, 60%);
   margin: 0% auto;
 }
 
@@ -35,4 +35,15 @@
   aspect-ratio: 16 / 9;
   border: none;
   margin-top: 10px;
+}
+
+.youtube_short_container {
+  display: flex;
+  justify-content: center;
+}
+
+.youtube_short {
+  width: 50%;
+  aspect-ratio: 9 / 16;
+  border: none;
 }

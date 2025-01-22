@@ -1,0 +1,23 @@
+- name: Piece of Code
+  link: /projects/pieceofcode
+  thumb: /assets/images/pieceofcode/pieceofcode_thumb.jpg
+
+- name: Bar, Rope, String
+  link: /projects/bar_rope_string
+  thumb: /assets/images/bar_rope_string/bar_rope_string_thumb.jpg
+
+- name: Alternate Microphones
+  link: /projects/alt_microphones
+  thumb: /assets/images/alt_microphones/alt_microphones_thumb.jpg
+
+- name: Studio Edwin van der Heide
+  link: /projects/studio_evdh
+  thumb: /assets/images/studio_evdh/Schwingungen - Schwebungen_thumb.jpg
+
+- name: Solastalgia
+  link: /projects/solastalgia
+  thumb: /assets/images/solastalgia/solastalgia_thumb.jpg
+
+- name: Tussenwater
+  link: /projects/tussenwater
+  thumb: /assets/images/tussenwater/tussenwater_thumb.jpg
