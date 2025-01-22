@@ -127,9 +127,9 @@ a:hover .project_thumb_title {
 .youtube_short_container {
   margin-top: 5%;
   display: flex;
-  justify-content: center; }
+  justify-content: space-between;
+  gap: 1%; }
 
 .youtube_short {
-  width: 50%;
   aspect-ratio: 9 / 16;
   border: none; }
