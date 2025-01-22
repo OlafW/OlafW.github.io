@@ -1,5 +1,5 @@
 $(document).ready(function () {
-  console.log("Slick Carousel is ready");
+  // console.log("Slick Carousel is ready");
   $(".my_carousel").slick({
     dots: true,
     arrows: true,

@@ -22,12 +22,31 @@
   text-wrap: pretty;
 }
 
+.sentence_highlight {
+  font-size: 1.25em;
+  font-weight: 300;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+.horizontal_line {
+  border-bottom: solid black 1px;
+  margin: 5% 0% 5% 0%;
+}
+
 .project_img {
   max-width: 100%;
   height: auto;
   display: block;
   margin: 5% auto;
   object-fit: cover;
+}
+
+.img_description {
+  font-size: 1em;
+  margin-top: -4%;
+  margin-bottom: 0px;
+  font-style: italic;
 }
 
 .project_video {
@@ -38,6 +57,7 @@
 }
 
 .youtube_short_container {
+  margin-top: 5%;
   display: flex;
   justify-content: center;
 }
