@@ -21,7 +21,7 @@ canvas {
   justify-content: space-between; }
 
 .title {
-  font-size: 1.8em;
+  font-size: 25px;
   font-weight: 500; }
 
 .topnav {
@@ -29,15 +29,15 @@ canvas {
   align-items: center;
   flex-wrap: wrap;
   justify-content: flex-end;
-  gap: 10px; }
+  gap: 5px; }
 
 .topnav a {
-  font-size: 1.4em;
+  font-size: 20px;
   align-self: left; }
 
 .projects_container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(min(40%, max(250px, 25%)), 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(50%, max(250px, 25%)), 1fr));
   row-gap: 2%;
   column-gap: 5%; }
 
