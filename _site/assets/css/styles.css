@@ -72,10 +72,6 @@ a:hover .project_thumb_title {
   color: black;
   text-decoration: underline; }
 
-.slick-prev:before,
-.slick-next:before {
-  color: #323232 !important; }
-
 .project_content {
   width: max(300px, 60%);
   margin: 0% auto; }
@@ -113,6 +109,13 @@ a:hover .project_thumb_title {
   display: block;
   margin: 5% auto;
   object-fit: cover; }
+
+.about_img {
+  max-width: 60%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+  margin: 0% auto; }
 
 .img_description {
   font-size: 1em;
