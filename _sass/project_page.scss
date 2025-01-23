@@ -32,6 +32,7 @@
 .horizontal_line {
   border-bottom: solid black 1px;
   margin: 5% 0% 5% 0%;
+  opacity: 0.5;
 }
 
 .project_img {
@@ -64,8 +65,8 @@
 }
 
 .youtube_short {
-  // width: 100%;
-  // max-height: 600px;
+  flex: 1;
+  min-width: 0;
   aspect-ratio: 9 / 16;
   border: none;
 }

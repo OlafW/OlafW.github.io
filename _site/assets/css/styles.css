@@ -8,7 +8,8 @@ html {
 
 body {
   width: 80%;
-  margin: 2% auto; }
+  margin: 2% auto;
+  background-color: white; }
 
 canvas {
   display: block; }
@@ -29,7 +30,7 @@ canvas {
   align-items: center;
   flex-wrap: wrap;
   justify-content: flex-end;
-  gap: 5px; }
+  gap: 8px; }
 
 .topnav a {
   font-size: 20px;
@@ -103,7 +104,8 @@ a:hover .project_thumb_title {
 
 .horizontal_line {
   border-bottom: solid black 1px;
-  margin: 5% 0% 5% 0%; }
+  margin: 5% 0% 5% 0%;
+  opacity: 0.5; }
 
 .project_img {
   max-width: 100%;
@@ -131,5 +133,7 @@ a:hover .project_thumb_title {
   gap: 1%; }
 
 .youtube_short {
+  flex: 1;
+  min-width: 0;
   aspect-ratio: 9 / 16;
   border: none; }

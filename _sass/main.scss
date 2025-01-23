@@ -10,6 +10,7 @@ html {
 body {
   width: 80%;
   margin: 2% auto;
+  background-color: white;
   // border: solid black;
 }
 
@@ -38,7 +39,7 @@ canvas {
   align-items: center;
   flex-wrap: wrap;
   justify-content: flex-end;
-  gap: 5px;
+  gap: 8px;
   // border: solid black;
 }
 
