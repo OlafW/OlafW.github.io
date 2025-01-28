@@ -6,6 +6,9 @@ html {
   font-variation-settings: "wdth" 100;
   font-size: 14.5px; }
 
+@media (max-width: 600px) {
+  html {
+    font-size: 16px; } }
 body {
   width: 80%;
   margin: 2% auto;
@@ -19,10 +22,11 @@ canvas {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between; }
+  justify-content: space-between;
+  gap: 25px; }
 
 .title {
-  font-size: 25px;
+  font-size: 1.8rem;
   font-weight: 500; }
 
 .topnav {
@@ -33,7 +37,7 @@ canvas {
   gap: 8px; }
 
 .topnav a {
-  font-size: 20px;
+  font-size: 1.4rem;
   align-self: left; }
 
 .projects_container {
@@ -44,10 +48,15 @@ canvas {
 
 .project_thumb {
   max-width: 100%;
+  object-fit: cover;
+  transition: all 0.5s; }
+
+.project_thumb:hover {
+  max-width: 100%;
   object-fit: cover; }
 
 .project_thumb_title {
-  font-size: 1.1em;
+  font-size: 1.1rem;
   font-weight: 100;
   width: fit-content;
   padding-top: 0px;
@@ -73,18 +82,18 @@ a:hover .project_thumb_title {
   text-decoration: underline; }
 
 .project_content {
-  width: max(300px, 60%);
-  margin: 0% auto; }
+  width: min(80%, 85ch);
+  margin: 0px auto; }
 
 .project_title {
-  font-size: 1.5em;
+  font-size: 1.5rem;
   font-weight: 300;
   opacity: 0.5;
   margin-bottom: 0px;
   margin-top: 0px; }
 
 .project_description {
-  font-size: 1em;
+  font-size: 1rem;
   margin-top: 0px;
   margin-bottom: 20px;
   font-style: italic; }
@@ -94,7 +103,7 @@ a:hover .project_thumb_title {
   text-wrap: pretty; }
 
 .sentence_highlight {
-  font-size: 1.25em;
+  font-size: 1.25rem;
   font-weight: 300;
   margin-bottom: 0px;
   text-align: center; }
@@ -112,7 +121,7 @@ a:hover .project_thumb_title {
   object-fit: cover; }
 
 .img_description {
-  font-size: 1em;
+  font-size: 1rem;
   margin-top: -4%;
   margin-bottom: 0px;
   font-style: italic; }
@@ -136,7 +145,7 @@ a:hover .project_thumb_title {
   border: none; }
 
 .about_container {
-  width: max(300px, 60%);
+  width: min(80%, 85ch);
   margin: 0% auto;
   display: flex;
   align-items: start;

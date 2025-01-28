@@ -7,6 +7,12 @@ html {
   font-size: 14.5px;
 }
 
+@media (max-width: 600px) {
+  html {
+    font-size: 16px;
+  }
+}
+
 body {
   width: 80%;
   margin: 2% auto;
@@ -25,12 +31,20 @@ canvas {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  gap: 25px;
+
+  // position: sticky;
+  // background-color: white;
+  // top: 0;
+  // z-index: 999;
+
   // border: solid black;
 }
 
 .title {
-  font-size: 25px; //1.8em;
+  font-size: 1.8rem;
   font-weight: 500;
+  // margin-bottom: 0px;
   // border: solid black;
 }
 
@@ -44,7 +58,7 @@ canvas {
 }
 
 .topnav a {
-  font-size: 20px; //1.4em;
+  font-size: 1.4rem;
   align-self: left;
   // border: solid black;
 }
@@ -65,10 +79,18 @@ canvas {
 .project_thumb {
   max-width: 100%;
   object-fit: cover;
+  // filter: blur(100px);
+  transition: all 0.5s;
+}
+
+.project_thumb:hover {
+  max-width: 100%;
+  object-fit: cover;
+  // filter: blur(0px);
 }
 
 .project_thumb_title {
-  font-size: 1.1em;
+  font-size: 1.1rem;
   font-weight: 100;
   width: fit-content;
   padding-top: 0px;
@@ -97,8 +119,3 @@ a:hover .project_thumb_title {
   color: black;
   text-decoration: underline;
 }
-
-// .slick-prev:before,
-// .slick-next:before {
-//   color: rgb(50, 50, 50) !important;
-// }
