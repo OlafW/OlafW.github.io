@@ -14,9 +14,6 @@ body {
   margin: 2% auto;
   background-color: white; }
 
-canvas {
-  display: block; }
-
 .masthead {
   margin: 2% 0%;
   display: flex;
@@ -34,7 +31,11 @@ canvas {
   align-items: center;
   flex-wrap: wrap;
   justify-content: flex-end;
-  gap: 8px; }
+  gap: 8px;
+  position: sticky;
+  background-color: white;
+  top: 0;
+  z-index: 999; }
 
 .topnav a {
   font-size: 1.4rem;
@@ -47,11 +48,6 @@ canvas {
   column-gap: 5%; }
 
 .project_thumb {
-  max-width: 100%;
-  object-fit: cover;
-  transition: all 0.5s; }
-
-.project_thumb:hover {
   max-width: 100%;
   object-fit: cover; }
 

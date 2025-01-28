@@ -20,11 +20,6 @@ body {
   // border: solid black;
 }
 
-canvas {
-  display: block;
-  // border: solid black;
-}
-
 .masthead {
   margin: 2% 0%;
   display: flex;
@@ -32,12 +27,6 @@ canvas {
   align-items: center;
   justify-content: space-between;
   gap: 25px;
-
-  // position: sticky;
-  // background-color: white;
-  // top: 0;
-  // z-index: 999;
-
   // border: solid black;
 }
 
@@ -54,6 +43,11 @@ canvas {
   flex-wrap: wrap;
   justify-content: flex-end;
   gap: 8px;
+
+  position: sticky;
+  background-color: white;
+  top: 0;
+  z-index: 999;
   // border: solid black;
 }
 
@@ -64,7 +58,6 @@ canvas {
 }
 
 // Grid: https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Grids
-
 .projects_container {
   display: grid;
   grid-template-columns: repeat(
@@ -79,14 +72,6 @@ canvas {
 .project_thumb {
   max-width: 100%;
   object-fit: cover;
-  // filter: blur(100px);
-  transition: all 0.5s;
-}
-
-.project_thumb:hover {
-  max-width: 100%;
-  object-fit: cover;
-  // filter: blur(0px);
 }
 
 .project_thumb_title {
