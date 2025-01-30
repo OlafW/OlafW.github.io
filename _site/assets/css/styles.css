@@ -31,11 +31,7 @@ body {
   align-items: center;
   flex-wrap: wrap;
   justify-content: flex-end;
-  gap: 8px;
-  position: sticky;
-  background-color: white;
-  top: 0;
-  z-index: 999; }
+  gap: 8px; }
 
 .topnav a {
   font-size: 1.4rem;
